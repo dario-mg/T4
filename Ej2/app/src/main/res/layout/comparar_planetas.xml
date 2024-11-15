@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CompararPlanetasActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbComparar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        app:title="El Sol"
+        app:titleTextColor="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comparar Planetas" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#871D93"
+            android:backgroundTint="#D718F6"
+            android:text="planeta"
+            android:textAlignment="center" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#871D93"
+            android:backgroundTint="#D718F6"
+            android:text="planeta"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Díametro"
+        android:textAlignment="center"
+        android:textColor="#7B449C"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CFA3D6"
+            android:backgroundTint="#BE65D9"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textColor="#7B449C"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CFA3D6"
+            android:backgroundTint="#BE65D9"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textColor="#7B449C"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distancia al Sol"
+        android:textAlignment="center"
+        android:textColor="#7B449C"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CFA3D6"
+            android:backgroundTint="#BE65D9"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textColor="#7B449C"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CFA3D6"
+            android:backgroundTint="#BE65D9"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textColor="#7B449C"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Densidad"
+        android:textAlignment="center"
+        android:textColor="#7B449C"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CFA3D6"
+            android:backgroundTint="#BE65D9"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textColor="#7B449C"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CFA3D6"
+            android:backgroundTint="#BE65D9"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textColor="#7B449C"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
